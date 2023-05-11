@@ -1,3 +1,5 @@
-const jsname = 'Garret';
+const jsname = ['Garret', 'Cameron'];
 
-console.log(`${"Hello " + jsname}`);
+for (let i = 0; i < jsname.length; i++) {
+    console.log(`${"Hello " + jsname[i]}`);
+}
